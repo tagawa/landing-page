@@ -1,0 +1,445 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #0D0D0D;
+    font-family: 'Sen', sans-serif;
+}
+
+.logo>h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+}
+
+.headline>h2 {
+    font-size: 1.2rem;
+    line-height: auto;
+    color: white;
+    font-weight: 400;
+}
+
+    .headline>p {
+        margin-top: 38px;
+        font-size: 0.8rem;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.02rem;
+        line-height: 1.2rem;
+
+    }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10%;
+}
+
+    .logo>p {
+        position: relative;
+        top: -40px;
+        right: -24px;
+        text-transform: uppercase;
+        font-size: .8rem;
+        color: white;
+        letter-spacing: .04rem;
+    }
+
+.ghost {
+    animation: ghost 1s ease-in-out infinite alternate;
+    -webkit-animation: ghost 1s ease-in-out infinite alternate;
+}
+
+.loop {
+    animation: loop 4s linear infinite alternate;
+    -webkit-animation: loop 4s linear infinite alternate;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    position: relative;
+    background: linear-gradient(45deg, transparent, #4A4A4A, transparent);  
+    margin: 20px 0px;
+}
+
+    .p-divider {
+        width: 100%;
+        height: 1px;
+        position: relative;
+        display: block;
+        background: linear-gradient(45deg, transparent, #4A4A4A, transparent);      
+    }
+
+        .p-divider:nth-of-type(3) {
+            margin: 20px 0px 40px 0px;
+        }
+
+.headline {
+    text-align: center; 
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.socials {
+    position: relative;
+    top: -20px;
+    margin: 0 auto;
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .socials>a>img {
+        opacity: 0.8;
+    }
+
+        .socials>a>img:hover {
+            opacity: 1;
+            transform: translateY(-4px);
+        }
+
+footer {
+    margin: 20px 0px;
+}
+
+    footer>p {
+        color: #757575;
+        text-align: center;
+        font-size: 0.86rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.02rem;
+    }
+
+    .footer-socials {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 80px;
+        padding-bottom: 20px;
+    }
+
+        .footer-socials>a>img {
+            width: 80%;
+            opacity: 0.6;
+        }
+
+            .footer-socials>a>img:hover {
+                opacity: 1;
+            }
+
+.spots {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+    .spot-item {
+        color: white;
+        width: 100%;
+    }
+
+        .spot-item>img {
+            margin: 10px 0px 40px 0px;
+        }
+
+        .spot-item>p {
+            font-size: .9rem;
+            text-align: left;
+        }
+
+        .spot-item>h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            text-align: left;
+            text-transform: uppercase
+        }
+
+            .howto>h3>span {
+                height: 1px;
+                position: relative;
+                top: 18px;
+            }  
+
+                .howto-line-left {
+                    display: none;
+                    float: left;
+                    width: 5%;
+                    background: linear-gradient(45deg, transparent, #4A4A4A);
+                }
+
+                .howto-line-right {
+                    display: none;
+                    float: right;
+                    width: 5%;
+                    background: linear-gradient(45deg, #4A4A4A, transparent);
+                }
+
+            .spot-item>h2>span {
+                height: 1px;
+                position: relative;
+                float: right;
+                right: 20px;
+                top: 13px;
+                background: linear-gradient(45deg, #4A4A4A, transparent);
+            }
+
+                .privacy {
+                    width: 50%;
+                }
+
+                .decentralized {
+                    width: 20%;
+                }
+
+                .fast {
+                    width: 20%;
+                }
+
+                .masternode {
+                    width: 30%;
+                }
+
+                .staking {
+                    width: 30%;
+                }
+
+                .runnode {
+                    width: 10%;
+                }
+
+
+
+.howto {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 40px; 
+}
+
+    .supply-info {
+        text-transform: uppercase;
+    }
+
+    .howto>p {
+        color: white;
+        font-size: .9rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .howto>h2 {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .howto>h3 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+.dex-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin: 40px 0px;
+}
+
+    .dex-list>a {
+        text-align: center;
+    }
+
+    .dex-list>a>img {
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+        object-fit: none;
+    }
+
+/*anim*/
+
+@keyframes ghost {
+    from { 
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(10px);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes ghost {
+    from {
+        -webkit-transform: translateY(0);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: translateY(10px);
+        opacity: 1;
+    }
+}
+
+@keyframes loop {
+    from {
+     transform: translateY(0);
+    }
+    to {
+        transform: translateY(20px);
+    }
+}
+
+@-webkit-keyframes loop {
+    from {
+        -webkit-transform: translateY(0);
+    }
+    to {
+        -webkit-transform: translateY(20px);
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .logo {
+        margin-top: 10%;
+    }
+
+    .headline {
+        width: 80%;
+    }
+
+    .headline>h2 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+        .headline>p {
+            margin-top: 80px;
+            font-size: 1rem;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.04rem;
+        }
+
+    .spots {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+        .spot-item {
+            width: 46%;
+            margin: 20px 0px 40px 0px;
+        }
+
+        .spot-item>h2 {
+            font-size: 1.4rem;
+        }
+
+            .privacy {
+                width: 70%;
+            }
+
+            .decentralized {
+                width: 50%;
+            }
+
+            .fast {
+                width: 8%;
+            }
+
+            .masternode {
+                width: 50%;
+            }
+
+            .staking {
+                width: 50%;
+            }
+
+            .runnode {
+                width: 30%;
+            }
+
+
+        .spot-item>p {
+            font-size: 1.18rem;
+            letter-spacing: 0.02rem;
+        }
+
+    .divider:nth-of-type(2),
+    .divider:nth-of-type(5),
+    .divider:nth-of-type(6) {
+        display: none;
+    }
+
+    .howto>h2 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+
+    .howto>h3 {
+        font-size: 1.8rem;
+    }
+
+    .howto>h3>span {
+        height: 1px;
+        position: relative;
+        top: 18px;
+    }  
+
+        .howto-line-left {
+            display: inline;
+            float: left;
+            width: 24%;
+            background: linear-gradient(45deg, transparent, #4A4A4A);
+        }
+
+        .howto-line-right {
+            display: inline;
+            float: right;
+            width: 24%;
+            background: linear-gradient(45deg, #4A4A4A, transparent);
+        }
+
+    .howto>p {
+        font-size: 1.6rem;
+    }
+
+    .dex-list {
+        height: 200px;
+        margin: 100px 0px 0px 0px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+        .dex-list>a>img {
+            width: 100%;
+        }
+
+        
+
+
+
+
+}
+
