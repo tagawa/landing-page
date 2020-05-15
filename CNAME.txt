@@ -1,1 +1,7 @@
-www.ghostbymcafee.com
+ <<>> DiG 9.10.6 <<>> www.ghostbymcafee.com +nostats +nocomments +nocmd
+;; global options: +cmd
+;www.ghostbymcafee.com.         IN      A
+www.ghostbymcafee.com.  3040    IN      A       185.199.111.153
+www.ghostbymcafee.com.  3040    IN      A       185.199.110.153
+www.ghostbymcafee.com.  3040    IN      A       185.199.109.153
+www.ghostbymcafee.com.  3040    IN      A       185.199.108.153
