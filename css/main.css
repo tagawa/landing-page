@@ -25,8 +25,30 @@ body {
         text-transform: uppercase;
         letter-spacing: 0.02rem;
         line-height: 1.2rem;
-
     }
+
+    .buttons {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .buttons>a {
+        color: white;
+        text-transform: uppercase;
+        padding: 20px;
+        border: 1px solid white;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+        .buttons>a:hover {
+            background-color: white;
+            color: black;
+        }
 
 .container {
     width: 80%;
@@ -171,6 +193,13 @@ footer {
                 top: 18px;
             }  
 
+                .howto>img {
+                    width: 100%;
+                    position: relative;
+                    margin: 40px auto;
+                    text-align: center;
+                }
+
                 .howto-line-left {
                     display: none;
                     float: left;
@@ -259,7 +288,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 300px;
+    height: 500px;
     width: 100%;
     position: relative;
     margin: 40px 0px;
@@ -267,6 +296,10 @@ footer {
 
     .dex-list>a {
         text-align: center;
+    }
+
+    .dex-list>a:nth-of-type(2) {
+        margin: -60px 0;
     }
 
     .dex-list>a>img {
@@ -328,6 +361,14 @@ footer {
     .headline {
         width: 80%;
     }
+
+    .buttons {
+        flex-direction: row;
+        width: 50%;
+        margin: 60px auto 40px auto;
+    }
+
+
 
     .headline>h2 {
         font-size: 2.2rem;
@@ -431,6 +472,10 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+        .dex-list>a:nth-of-type(2) {
+             margin: 0 0;
+        }
 
         .dex-list>a>img {
             width: 100%;
